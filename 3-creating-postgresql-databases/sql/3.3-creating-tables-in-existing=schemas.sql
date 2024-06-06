@@ -17,3 +17,9 @@ CREATE TABLE loan_504.borrower (
     full_name VARCHAR (100) NOT NULL
 );
 
+-- Create a table named 'borrower' in the 'loan_7a' schema
+CREATE TABLE loan_7a.borrower (
+    id serial PRIMARY KEY,
+    full_name VARCHAR (100) NOT NULL,
+  	individual BOOLEAN
+);
