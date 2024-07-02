@@ -1,0 +1,4 @@
+EXPLAIN
+SELECT *
+FROM daily_aqi
+LIMIT 10;
