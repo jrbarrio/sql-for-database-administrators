@@ -1,0 +1,3 @@
+EXPLAIN
+SELECT * 
+FROM daily_aqi;
