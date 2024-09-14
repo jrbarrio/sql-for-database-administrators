@@ -1,0 +1,7 @@
+EXPLAIN VERBOSE
+SELECT *
+FROM country_demos;
+
+EXPLAIN ANALYZE
+SELECT *
+FROM country_demos;
